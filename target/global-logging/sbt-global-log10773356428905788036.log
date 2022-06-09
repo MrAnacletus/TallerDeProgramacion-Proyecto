@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.2 (Oracle Corporation Java 17.0.2)
+[debug] Load.defaultLoad until apply took 412.0589ms
+[debug]           Load.loadUnit: plugins took 58.8667ms
+[debug]           Load.loadUnit: defsScala took 0.2292ms
+[debug] [Loading] Scanning directory C:\Universidad\5 año\Primer semestre\Taller de programacion\Proyecto-Scala-Lambda\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Universidad\5 año\Primer semestre\Taller de programacion\Proyecto-Scala-Lambda\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 14.999 ms
+[debug]               Load.resolveProject(proyecto-scala-lambda-build) took 35.994ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id proyecto-scala-lambda-build, base: C:\Universidad\5 año\Primer semestre\Taller de programacion\Proyecto-Scala-Lambda\project, plugins: List(<none>))) took 68.9968ms
+[debug] [Loading] Done in C:\Universidad\5 año\Primer semestre\Taller de programacion\Proyecto-Scala-Lambda\project, returning: (proyecto-scala-lambda-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 85.7311ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.1903ms
+[debug]         Load.loadUnit(file:/C:/Universidad/5%20año/Primer%20semestre/Taller%20de%20programacion/Proyecto-Scala-Lambda/project/, ...) took 149.6209ms
+[debug]       Load.apply: load took 311.3817ms
+[debug]       Load.apply: resolveProjects took 4.9337ms
+[debug]       Load.apply: finalTransforms took 74.3933ms
+[debug]       Load.apply: config.delegates took 6.1065ms
+[debug]       Load.apply: Def.make(settings)... took 364.614ms
+[debug]       Load.apply: structureIndex took 104.0161ms
+[debug]       Load.apply: mkStreams took 1.7891ms
+[info] loading project definition from C:\Universidad\5 año\Primer semestre\Taller de programacion\Proyecto-Scala-Lambda\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 4689.4469ms
+[debug]     Load.loadUnit: defsScala took 0.0026ms
+[debug] [Loading] Scanning directory C:\Universidad\5 año\Primer semestre\Taller de programacion\Proyecto-Scala-Lambda
+[debug]       Load.loadUnit: mkEval took 4.7404ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.7956 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 2.6518ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Universidad\5 año\Primer semestre\Taller de programacion\Proyecto-Scala-Lambda, plugins: List(<none>))) took 5.6934ms
+[debug] [Loading] Done in C:\Universidad\5 año\Primer semestre\Taller de programacion\Proyecto-Scala-Lambda, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2232.0903ms
+[debug]     Load.loadUnit: cleanEvalClasses took 7.2377ms
+[debug]   Load.loadUnit(file:/C:/Universidad/5%20año/Primer%20semestre/Taller%20de%20programacion/Proyecto-Scala-Lambda/, ...) took 6930.4709ms
+[debug] Load.apply: load took 6948.7553ms
+[debug] Load.apply: resolveProjects took 0.1188ms
+[debug] Load.apply: finalTransforms took 26.1365ms
+[debug] Load.apply: config.delegates took 0.3331ms
+[debug] Load.apply: Def.make(settings)... took 86.3494ms
+[debug] Load.apply: structureIndex took 22.9432ms
+[debug] Load.apply: mkStreams took 0.0033ms
+[info] set current project to Proyecto-Scala-Lambda (in build file:/C:/Universidad/5%20año/Primer%20semestre/Taller%20de%20programacion/Proyecto-Scala-Lambda/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-d934e5bb52566cd81e85
+[debug] Writing bsp connection file
+[info] started sbt server
